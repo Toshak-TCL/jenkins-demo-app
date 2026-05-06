@@ -72,7 +72,7 @@ def home():
             <p><strong>Deployment Time:</strong> {deployment_time}</p>
 
             <div class="status">
-                ✅ Version 2 Live in Production
+                ✅ Version 3 Live in Production
             </div>
         </div>
     </body>
