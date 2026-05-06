@@ -8,11 +8,10 @@ pipeline {
     stages {
 
         stage('Clone Code') {
-            steps {
-                git branch: 'main',
-                git 'https://github.com/Toshak-TCL/jenkins-demo-app.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/Toshak-TCL/jenkins-demo-app.git'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
