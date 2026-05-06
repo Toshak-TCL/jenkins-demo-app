@@ -9,6 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/Toshak-TCL/jenkins-demo-app.git'
             }
         }
